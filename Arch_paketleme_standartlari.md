@@ -91,19 +91,19 @@ Yeni bir sürüm çıktığında ise paket yayın sayısı 1'e düşürülür. P
 
 - Paket dosyaları aşşağıdaki kuralları takip etmek zorundadır:
 
-| ------------- | ------------- |
-|  **/etc**     | Gerekli sistem ayar dosyaları |
-|  **/usr/bin** | Derlenmişler(Binaryler(ikililer)) |
-|  **/usr/lib** | Kütüphaneler |
-|  **/usr/include**| Header Dosyaları |
-|  **/usr/lib/{pkg}** | Modüller,eklentiler vb. |
-|  **/usr/share/doc/{pkg}**|	Uygulama dökümantasyonları |
-|  **/usr/share/info** |      GNU Info sistem dosyaları |
-|  **/usr/share/man**   |     Man sayfaları |
-|  **/usr/share/{pkg}** |     Uygulama verileri |
-|  **/var/lib/{pkg}**    |    Kalıcı uygulama depolama |
-|  **/etc/{pkg}**|            <pre>{pkg}</pre> için ayar dosyaları |
-|  **/opt/{pkg}**|            Geniş, kendi kendine yeten, başka bağımlılığı olmayan paketler |
+| --------------------------| ----------------------------------------------------------------|
+|  **/etc**                 | Gerekli sistem ayar dosyaları                                   |
+|  **/usr/bin**             | Derlenmişler(Binaryler(ikililer))                               |
+|  **/usr/lib**             | Kütüphaneler                                                    |
+|  **/usr/include**         | Header Dosyaları                                                |
+|  **/usr/lib/{pkg}**       | Modüller,eklentiler vb.                                         |
+|  **/usr/share/doc/{pkg}** |	Uygulama dökümantasyonları                                      |
+|  **/usr/share/info**      | GNU Info sistem dosyaları                                       |
+|  **/usr/share/man**       | Man sayfaları                                                   |
+|  **/usr/share/{pkg}**     | Uygulama verileri                                               |
+|  **/var/lib/{pkg}**       | Kalıcı uygulama depolama                                        |
+|  **/etc/{pkg}**           | <pre>{pkg}</pre> için ayar dosyaları                            |
+|  **/opt/{pkg}**           | Geniş, kendi kendine yeten, başka bağımlılığı olmayan paketler  |
 
 - Paketler aşşağıda ki dizinlerden hiçbirini içermemelidir.
   |-------------|
