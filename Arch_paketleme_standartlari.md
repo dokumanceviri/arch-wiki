@@ -90,7 +90,7 @@ Yeni bir sürüm çıktığında ise paket yayın sayısı 1'e düşürülür. P
 - Ayar dosyaları <pre> /etc </pre> dizini içerisinde bulunmalıdır.  Eğer fazladan ayar dosyaları varsa , alt dizin kullanılarak  <pre> /etc </pre>  içerisinde düzenli ve temiz bir şekilde tutulabilir. <pre> /etc/paket_ismi </pre> kullanılarak bu dizin içerisin de ayar dosyaları ve gerekli ayarlamaları yapılabilir,barındırılabilir. Örneğin apachenin kullandığı <pre> /etc/httpd </pre> gibi.
 
 - Paket dosyaları aşşağıdaki kuralları takip etmek zorundadır:
-
+| Bölüm 1                   | Bölüm 2                                                         |
 | --------------------------| ----------------------------------------------------------------|
 |  **/etc**                 | Gerekli sistem ayar dosyaları                                   |
 |  **/usr/bin**             | Derlenmişler(Binaryler(ikililer))                               |
@@ -102,7 +102,7 @@ Yeni bir sürüm çıktığında ise paket yayın sayısı 1'e düşürülür. P
 |  **/usr/share/man**       | Man sayfaları                                                   |
 |  **/usr/share/{pkg}**     | Uygulama verileri                                               |
 |  **/var/lib/{pkg}**       | Kalıcı uygulama depolama                                        |
-|  **/etc/{pkg}**           | <pre>{pkg}</pre> için ayar dosyaları                            |
+|  **/etc/{pkg}**           | <code>{pkg}</code> için ayar dosyaları                          |
 |  **/opt/{pkg}**           | Geniş, kendi kendine yeten, başka bağımlılığı olmayan paketler  |
 
 - Paketler aşşağıda ki dizinlerden hiçbirini içermemelidir.
