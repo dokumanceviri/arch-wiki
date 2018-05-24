@@ -6,3 +6,5 @@ Bu çeviri Arch Wiki Sayfasının İçeriklerinin Türkçe Diline Çevrilmesini 
 Konular:
   - [Arch Build Sistemi](/Arch_Build_System.md) - 20 Mayıs 2018 Pazar
   - [Arch Paketleme Standartları](./Arch_paketleme_standartlari.md)
+  - [Arch Kullanıcı Deposu](./Arch_kullanici_deposu_AUR.md)
+  
